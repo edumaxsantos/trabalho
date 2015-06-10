@@ -1,0 +1,18 @@
+﻿Build started 25/04/2015 14:40:21.
+     1>Project "D:\UFES\2Periodo\ED1\trabalho\trabalhos\trabalhos\trabalhos.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\trabalhos.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\trabalhos.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Cliente.c Representante.c main.c
+         main.c
+     1>d:\ufes\2periodo\ed1\trabalho\trabalhos\trabalhos\main.c : fatal error C1853: 'Debug\trabalhos.pch' precompiled header file is from a previous version of the compiler, or the precompiled header is C++ and you are using it from C (or vice versa)
+         Representante.c
+     1>d:\ufes\2periodo\ed1\trabalho\trabalhos\trabalhos\representante.c : fatal error C1853: 'Debug\trabalhos.pch' precompiled header file is from a previous version of the compiler, or the precompiled header is C++ and you are using it from C (or vice versa)
+         Cliente.c
+     1>d:\ufes\2periodo\ed1\trabalho\trabalhos\trabalhos\cliente.c : fatal error C1853: 'Debug\trabalhos.pch' precompiled header file is from a previous version of the compiler, or the precompiled header is C++ and you are using it from C (or vice versa)
+         Generating Code...
+     1>Done Building Project "D:\UFES\2Periodo\ED1\trabalho\trabalhos\trabalhos\trabalhos.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.76
